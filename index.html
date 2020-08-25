@@ -11,28 +11,46 @@
     <title>Personal Page</title>
 </head>
 <body>
-    <header>
-        <h1>About Me</h1>
-        <img src="./images/foto-para-todo.jpg" width="100" alt="mi foto">
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#welcome">Welcome</a></li>
-            <li><a href="#biography">Biographic Info</a></li>
-            <li><a href="#academic">Academic Info</a></li>
-            <li><a href="#interests">My Interests</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-        </ul>
+
+    <nav class="navbar navbar-light bg-light navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html">Personal Page</a>
+            
+            <div class="collapse navbar-collapse" id="Navbar">    
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link" href="#welcome">Welcome</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#biography">Biographic Info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#academic">Academic Info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#interests">My Interests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                </ul>   
+            </div>         
+        </div>
     </nav>
+
+    <header>
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <section id="welcome">
+                    <h2>Welcome</h2>
+                    <p>This is a web page where you can find personal information about me,</p>
+                    <h3>My name Diego Forero Cruz</h3>
+                    <p>I'm 20 years old and currently kind of a software engineering student. I love cats and dogs, my favourite music genre is metal,
+                        love soul's like videogames and my favourite movie is Interstellar.
+                    </p>
+                </section>
+            </div>
+            <div class="col-12 col-md-4">
+                <img src="./images/foto-para-todo.jpg" width="100" alt="mi foto">
+            </div>
+        </div>
+    </header>
+    
     <main>
-        <section id="welcome">
-            <h2>Welcome</h2>
-            <p>This is a web page where you can find personal information about me,</p>
-            <h3>My name Diego Forero Cruz</h3>
-            <p>I'm 20 years old and currently kind of a software engineering student. I love cats and dogs, my favourite music genre is metal,
-                love soul's like videogames and my favourite movie is Interstellar.
-            </p>
-        </section>
+        
         <section id="biography">
             <h2>Biographic Info</h2>
             <table>
