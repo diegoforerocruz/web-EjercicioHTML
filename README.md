@@ -2,6 +2,8 @@
 Esta es la primera entrega del curso de Programación con tecnologías web, en donde se va a encontrar una página con mi información personal.
 Esta página se realizó haciendo uso de html, css, bootstrap y unas imagenes.
 
+La página se puede encontrar en: https://diegoforerocruz.github.io/web-EjercicioHtml/
+
 La organización de la página es la sieguiente:
 1. Barra de navegación que le va a permitir desplazarse por la página en cualquier momento, ya que esta siempre va a estar en la parte de arriba de la ventana.
 2. Mensaje de bienvenida con una foto personal.
