@@ -63,19 +63,22 @@ li a{
 
 p[class="lead"]{
     font-size: 1.5rem;
-}
 
+}
+/*Acá creo que se podría solucionar el tema del ancho de los videos en el carrusel*/
 @media (max-width: 425px) {
-    .imagecarousel {
-      height: 250px;
-    }
+  .imagecarousel {
+    height: 250px;
+  }
 
-    .videocarousel {
-        width: 284px;
-        height: 160px;
-      }
+  .videocarousel {
+    width: 284px;
+    height: 160px;
+  }
 }
+
 
 p, table{
     font-size: 1.5rem;
 }
+
