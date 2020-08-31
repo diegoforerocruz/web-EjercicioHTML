@@ -18,11 +18,16 @@ h2 {
   padding-bottom: 15px;
 }
 
+h2[class="section-title"]{
+    font-size:2.5rem;
+}
+
 h3 {
   padding-top: 50px;
   padding-bottom: 10px;
 }
-/*Se modifica el CSS que le da el tamaño a los videos de forma que sea mucho mas responsive en los diferentes tamaños*/
+
+/*review_nbello Se modifica el CSS que le da el tamaño a los videos de forma que sea mucho mas responsive en los diferentes tamaños*/
 @media (max-width: 600px) and (min-width: 0px) {
   .imagecarousel {
     height: 250px;
@@ -43,4 +48,34 @@ h3 {
     width: 550px;
     height: 450px;
   }
+
+h3[class="section-title"]{
+    font-size:2.5rem;
+}
+
+.link-title{
+    font-size: 1.75rem;
+}
+
+li a{
+    font-size: 2rem;
+}
+
+p[class="lead"]{
+    font-size: 1.5rem;
+}
+
+@media (max-width: 425px) {
+    .imagecarousel {
+      height: 250px;
+    }
+
+    .videocarousel {
+        width: 284px;
+        height: 160px;
+      }
+}
+
+p, table{
+    font-size: 1.5rem;
 }
